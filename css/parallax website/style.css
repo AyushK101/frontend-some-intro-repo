@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height: 100vh;   /* As wrapper contains all website that why  */
+    width: 100vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 100px;
+    
+}
+
+

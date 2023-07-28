@@ -1,0 +1,99 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(234, 234, 234);
+}
+
+h2 {
+    color: rgb(16, 4, 16);
+    text-decoration: underline;
+}
+
+h1 {
+    color: #b92b27;
+}
+
+#login {
+    background-color: #b92b27;
+    color: white;
+    
+}
+
+#signup {
+    background-color: #b92b27;
+    color: white;
+}
+
+.upvote {
+    background-color: #b92b27;
+}
+
+/* desendent selector */
+p a {
+    color: rgb(56, 0, 187);
+    font-size: medium;
+}
+
+nav ul{
+    color: #b92b27;
+} 
+
+p + h2 {
+   text-decoration: underline;   
+}
+
+.upvote + button {
+    color: rgb(0, 0, 0);
+    background-color: #b92b27;
+}
+div > input {
+    background-color: #0dfcb4;
+}
+ 
+input[type="password"] {
+    background-color: rgb(9, 246, 234);
+    color: rgb(204, 27, 27);
+    
+    font-size: larger;
+}
+
+input[type] {
+    background-color: chocolate;
+}
+
+.upvote:hover {
+    background-color: #2af301;
+    color: rgb(165, 0, 254);
+    font-weight: 600;
+}
+
+h2:hover {
+    text-decoration: none;
+}
+
+h2:active {
+    color:tomato;
+}
+
+input[type="radio"]:checked + label {
+    color: aqua;
+    background-color: crimson;
+}
+
+div:nth-of-type(n) {
+    background-color: #2af301;
+}
+
+h1::first-letter {
+    color: #008f26;
+}
+
+p::first-line {
+    color: #18008f;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#ro::selection {
+    background-color: chartreuse;
+}
+

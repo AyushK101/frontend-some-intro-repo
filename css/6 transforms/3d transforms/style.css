@@ -1,0 +1,33 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 3px solid black;
+}
+
+/* .translated {
+     transform: perspective(100px)  translateZ(-45px) ; move in z-axis i.e. towards inside or outside 
+}
+
+.scaled {
+    margin-left:600px;
+    transform: perspective(100px) scaleZ(2)  rotateY(45deg);
+} */
+
+.static {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    transition: 2s linear 0.2s;
+
+}
+
+.static:hover {
+    height: 100px;
+    width: 100px;
+    overflow: auto;
+    
+    transform: scale(1.5) translate(150px) rotate(360deg);
+     border-radius: 50%;
+}
+

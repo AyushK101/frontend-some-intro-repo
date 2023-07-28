@@ -1,0 +1,66 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(143, 234, 169, 0.8);
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+    border: 3px solid black;
+
+}
+
+#static {
+    background-color: yellow;
+    position: static;
+    top: 100px;
+    left: 100px;
+    /* no effect */
+}
+
+#relative {
+    background-color: yellow;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+#absolute {
+    background-color: yellow;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+#fixed {
+    background-color: yellow;
+    position: fixed;
+    top: 90px;
+    left: 90px;
+}
+
+#face {
+    height: 200px;
+    width: 200px;
+    border: none;
+    border-radius: 50%;
+    background-color: orange; 
+}
+
+.eye {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+    position:  relative;
+    top: 20px;
+}
+
+#mouth {
+    height: 30px;
+    width: 100px;
+    background-color: rgb(210, 18, 18);
+    border: none;
+    border-radius: 0 0 25px 25px;
+    margin-top: 50px;
+}

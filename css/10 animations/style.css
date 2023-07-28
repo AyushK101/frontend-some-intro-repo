@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.container {
+    width: 100%;
+    height: 212px;
+    background-color: yellow;
+    border: 3px solid red;
+
+}
+
+.box {
+    height: 209px;
+    width: 212px;
+    border: 2px solid green;
+    background-color: aqua;
+    animation-name: boxanime;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    
+}
+
+
+@keyframes boxanime {
+    from{
+        height: 209px;
+    width: 212px;
+    border: 2px solid green;
+    background-color: aqua;
+    }
+    to{
+        height: 150px;
+        width: 400px;
+        transform:  translate(400px);
+        background-color: chartreuse;
+        border-radius: 39%;
+    }
+}
